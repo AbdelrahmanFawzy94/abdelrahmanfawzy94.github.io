@@ -1,4 +1,14 @@
 {
+  "footer": {
+    "copy": "  2020 جميع الحقوق محفوظة لشركة Maoun ©"
+  },
+  "header": {
+    "home": "الرئيسية",
+    "aboutUs": "نبذة عن الشركة",
+    "ourServices": "خدماتنا",
+    "ourclients": "عملائنا",
+    "contactUs": "اتصل بنا"
+  },
   "home": {
     "strong&certefied": "من الشركات القوية و المعتمدة",
     "softwareHouse": "software house",
@@ -49,15 +59,5 @@
     "callUs": "اتصل بنا",
     "sendMessage": "ارسال رسالة ",
     "location": "الموقع"
-  },
-  "footer": {
-    "copy": "  2020 جميع الحقوق محفوظة لشركة Maoun ©"
-  },
-  "header": {
-    "home": "الرئيسية",
-    "aboutUs": "نبذة عن الشركة",
-    "ourServices": "خدماتنا",
-    "ourclients": "عملائنا",
-    "contactUs": "اتصل بنا"
   }
 }
