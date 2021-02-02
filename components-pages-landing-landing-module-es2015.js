@@ -13501,7 +13501,7 @@ class ThemeService {
                 this.theme$.next(this.themes[this.index]);
                 this.index++;
             }
-        }, 5000);
+        }, 15000);
         return this.theme$;
     }
     changeTheme(themeValue) {
@@ -14045,41 +14045,93 @@ class HomeComponent {
     ngOnInit() {
     }
     ngAfterViewInit() {
+        this.getAllImages();
+    }
+    getAllImages() {
+        this.headerItems.forEach((item, i) => {
+            fetch(item)
+                .then(response => response.blob())
+                .then(blob => {
+                let reader = new FileReader();
+                let componentClass = this;
+                reader.onload = function () {
+                    componentClass.headerItems[i] = reader.result;
+                };
+                reader.readAsDataURL(blob);
+            });
+        });
+        this.headerMaouns.forEach((item, i) => {
+            fetch(item)
+                .then(response => response.blob())
+                .then(blob => {
+                let reader = new FileReader();
+                let componentClass = this;
+                reader.onload = function () {
+                    componentClass.headerMaouns[i] = reader.result;
+                };
+                reader.readAsDataURL(blob);
+            });
+        });
+        this.headerBoundries.forEach((item, i) => {
+            fetch(item)
+                .then(response => response.blob())
+                .then(blob => {
+                let reader = new FileReader();
+                let componentClass = this;
+                reader.onload = function () {
+                    componentClass.headerBoundries[i] = reader.result;
+                };
+                reader.readAsDataURL(blob);
+            });
+        });
+        this.headerBgs.forEach((item, i) => {
+            fetch(item)
+                .then(response => response.blob())
+                .then(blob => {
+                let reader = new FileReader();
+                let componentClass = this;
+                reader.onload = function () {
+                    componentClass.headerBgs[i] = reader.result;
+                };
+                reader.readAsDataURL(blob);
+            });
+        });
         this.changeTheme();
     }
     changeTheme() {
         this.themeService.intervalTheme().subscribe(succ => {
-            console.log(succ);
             this.themeService.changeTheme(succ);
             switch (succ) {
                 case _core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT:
+                    this.animate();
                     this.headerMaoun = this.headerMaouns[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT - 1];
                     this.headerBoundry = this.headerBoundries[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT - 1];
                     this.headerBg = this.headerBgs[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT - 1];
                     this.headerItem = this.headerItems[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT - 1];
                     this.phoneHue = this.phoneHues[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT - 1];
-                    this.animate();
                     break;
                 case _core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE:
+                    this.animate();
                     this.headerMaoun = this.headerMaouns[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE - 1];
                     this.headerBoundry = this.headerBoundries[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE - 1];
                     this.headerBg = this.headerBgs[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE - 1];
                     this.headerItem = this.headerItems[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE - 1];
                     this.phoneHue = this.phoneHues[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE - 1];
-                    this.animate();
                     break;
                 case _core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP:
+                    this.animate();
                     this.headerMaoun = this.headerMaouns[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP - 1];
                     this.headerBoundry = this.headerBoundries[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP - 1];
                     this.headerBg = this.headerBgs[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP - 1];
                     this.headerItem = this.headerItems[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP - 1];
                     this.phoneHue = this.phoneHues[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP - 1];
-                    this.animate();
                     break;
                 default:
                     break;
             }
         }, err => console.error(err));
+    }
+    set(arr, a) {
     }
     animate() {
         this.isAnimated = true;

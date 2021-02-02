@@ -17125,7 +17125,7 @@ function _createClass2(Constructor, protoProps, staticProps) { if (protoProps) _
 
               _this6.index++;
             }
-          }, 5000);
+          }, 15000);
           return this.theme$;
         }
       }, {
@@ -18178,50 +18178,108 @@ function _createClass2(Constructor, protoProps, staticProps) { if (protoProps) _
       }, {
         key: "ngAfterViewInit",
         value: function ngAfterViewInit() {
+          this.getAllImages();
+        }
+      }, {
+        key: "getAllImages",
+        value: function getAllImages() {
+          var _this10 = this;
+
+          this.headerItems.forEach(function (item, i) {
+            fetch(item).then(function (response) {
+              return response.blob();
+            }).then(function (blob) {
+              var reader = new FileReader();
+              var componentClass = _this10;
+
+              reader.onload = function () {
+                componentClass.headerItems[i] = reader.result;
+              };
+
+              reader.readAsDataURL(blob);
+            });
+          });
+          this.headerMaouns.forEach(function (item, i) {
+            fetch(item).then(function (response) {
+              return response.blob();
+            }).then(function (blob) {
+              var reader = new FileReader();
+              var componentClass = _this10;
+
+              reader.onload = function () {
+                componentClass.headerMaouns[i] = reader.result;
+              };
+
+              reader.readAsDataURL(blob);
+            });
+          });
+          this.headerBoundries.forEach(function (item, i) {
+            fetch(item).then(function (response) {
+              return response.blob();
+            }).then(function (blob) {
+              var reader = new FileReader();
+              var componentClass = _this10;
+
+              reader.onload = function () {
+                componentClass.headerBoundries[i] = reader.result;
+              };
+
+              reader.readAsDataURL(blob);
+            });
+          });
+          this.headerBgs.forEach(function (item, i) {
+            fetch(item).then(function (response) {
+              return response.blob();
+            }).then(function (blob) {
+              var reader = new FileReader();
+              var componentClass = _this10;
+
+              reader.onload = function () {
+                componentClass.headerBgs[i] = reader.result;
+              };
+
+              reader.readAsDataURL(blob);
+            });
+          });
           this.changeTheme();
         }
       }, {
         key: "changeTheme",
         value: function changeTheme() {
-          var _this10 = this;
+          var _this11 = this;
 
           this.themeService.intervalTheme().subscribe(function (succ) {
-            console.log(succ);
-
-            _this10.themeService.changeTheme(succ);
+            _this11.themeService.changeTheme(succ);
 
             switch (succ) {
               case _core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT:
-                _this10.headerMaoun = _this10.headerMaouns[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT - 1];
-                _this10.headerBoundry = _this10.headerBoundries[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT - 1];
-                _this10.headerBg = _this10.headerBgs[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT - 1];
-                _this10.headerItem = _this10.headerItems[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT - 1];
-                _this10.phoneHue = _this10.phoneHues[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT - 1];
+                _this11.animate();
 
-                _this10.animate();
-
+                _this11.headerMaoun = _this11.headerMaouns[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT - 1];
+                _this11.headerBoundry = _this11.headerBoundries[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT - 1];
+                _this11.headerBg = _this11.headerBgs[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT - 1];
+                _this11.headerItem = _this11.headerItems[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT - 1];
+                _this11.phoneHue = _this11.phoneHues[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].RESTAURANT - 1];
                 break;
 
               case _core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE:
-                _this10.headerMaoun = _this10.headerMaouns[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE - 1];
-                _this10.headerBoundry = _this10.headerBoundries[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE - 1];
-                _this10.headerBg = _this10.headerBgs[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE - 1];
-                _this10.headerItem = _this10.headerItems[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE - 1];
-                _this10.phoneHue = _this10.phoneHues[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE - 1];
+                _this11.animate();
 
-                _this10.animate();
-
+                _this11.headerMaoun = _this11.headerMaouns[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE - 1];
+                _this11.headerBoundry = _this11.headerBoundries[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE - 1];
+                _this11.headerBg = _this11.headerBgs[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE - 1];
+                _this11.headerItem = _this11.headerItems[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE - 1];
+                _this11.phoneHue = _this11.phoneHues[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].CAFE - 1];
                 break;
 
               case _core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP:
-                _this10.headerMaoun = _this10.headerMaouns[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP - 1];
-                _this10.headerBoundry = _this10.headerBoundries[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP - 1];
-                _this10.headerBg = _this10.headerBgs[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP - 1];
-                _this10.headerItem = _this10.headerItems[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP - 1];
-                _this10.phoneHue = _this10.phoneHues[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP - 1];
+                _this11.animate();
 
-                _this10.animate();
-
+                _this11.headerMaoun = _this11.headerMaouns[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP - 1];
+                _this11.headerBoundry = _this11.headerBoundries[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP - 1];
+                _this11.headerBg = _this11.headerBgs[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP - 1];
+                _this11.headerItem = _this11.headerItems[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP - 1];
+                _this11.phoneHue = _this11.phoneHues[_core_models_enums_theme_MaounTheme_enum__WEBPACK_IMPORTED_MODULE_0__["MaounTheme"].SHOP - 1];
                 break;
 
               default:
@@ -18232,13 +18290,16 @@ function _createClass2(Constructor, protoProps, staticProps) { if (protoProps) _
           });
         }
       }, {
+        key: "set",
+        value: function set(arr, a) {}
+      }, {
         key: "animate",
         value: function animate() {
-          var _this11 = this;
+          var _this12 = this;
 
           this.isAnimated = true;
           setTimeout(function () {
-            _this11.isAnimated = false;
+            _this12.isAnimated = false;
           }, 1000);
         } // onSwiper(e: Swiper) {
         //   console.log(e);
