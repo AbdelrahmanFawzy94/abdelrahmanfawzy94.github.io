@@ -32,11 +32,11 @@
     "newOrder": "طلب جديد",
     "allOrders": "جميع الطلبات"
   },
-  "newOrder": {
+  "addOrder": {
     "location": "الموقع",
     "resetMap": "الغاء التحديد",
-    "done": "اختيار",
-    "details": "التفاصيل",
+    "next": "التالي",
+    "customer": "العميل",
     "customerDetails": "تفاصيل العميل",
     "customerName": "اسم العميل",
     "customerPhone": "جوال العميل",

@@ -32,11 +32,11 @@
     "newOrder": "making new orders",
     "allOrders": "all orders"
   },
-  "newOrder": {
+  "addOrder": {
     "location": "location",
     "resetMap": "reset map",
-    "done": "done",
-    "details": "details",
+    "next": "next",
+    "customer": "customer",
     "customerDetails": "customer details",
     "customerName": "customer name",
     "customerPhone": "customer phone",
