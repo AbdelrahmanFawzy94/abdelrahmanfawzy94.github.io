@@ -1,4 +1,8 @@
 {
+  "shared": {
+    "SAR": "SAR",
+    "empty": "empty"
+  },
   "login": {
     "username": "username",
     "password": "password",
@@ -41,7 +45,7 @@
     "customerName": "customer name",
     "customerPhone": "customer phone",
     "address": "address",
-    "selected": "selected...",
+    "selectedLocation": "selected location...",
     "paymentMethod": "payment method",
     "pickUpLocation": "pickUp location",
     "dropLocation": "drop location",
@@ -51,7 +55,7 @@
     "item": "item",
     "quantity": "quantity",
     "price": "price",
-    "itemDescription": "item description",
+    "itemDescription": "item description for captain",
     "add": "add",
     "requestCaptain": "request captain",
     "captainInformation": "captain information",
@@ -64,14 +68,19 @@
   "orders": {
     "orders": "orders",
     "addNewOrder": "add new order",
+    "creationDate": "creation date",
+    "search": "search",
     "orderNumber": "order number",
-    "fromAgent": "from agent",
     "toCustomer": "to customer",
-    "creationDate": "creation date"
+    "date": "date",
+    "time": "time",
+    "fromAgent": "from agent"
+    
   },
   "order": {
     "orders": "orders",
     "orderNumber": "order number",
+    "orderDetails": "order details",
     "agent": "agent",
     "productType": "product type",
     "customer": "customer",
@@ -80,23 +89,27 @@
     "city": "city",
     "paymentType": "payment type",
     "description": "description",
-    "showMap": "show distance and curruntly captain location",
-    "location": "location",
+    "address": "address",
+    "orderInGoogleMap": "order in google map",
     "pickupLocation": "pickup location",
     "dropLocation": "drop location",
-    "captain": "captain currently place",
-    "address": "address",
+    "captainLocation": "captain location",
     "orderItems": "order items",
-    "orderStatus": "order status",
-    "save": "save",
-    "close": "close",
     "item": "item",
     "quantity": "quantity",
     "price": "price",
+    "orderStatus": "order status",
     "status": "status",
     "date": "date",
     "time": "time",
-    "current": "current",
-    "noData": "no data"
+    "new" :"new",
+    "assginedToCaptain" :"assgined to captain",
+    "pickedUp" :"picked up",
+    "progress" :"in progress",
+    "dropped" :"dropped",
+    "Stopped" :"stopped",
+    "end" :"end",
+    "canceled" :"canceled",
+    "current":"current"
   }
 }

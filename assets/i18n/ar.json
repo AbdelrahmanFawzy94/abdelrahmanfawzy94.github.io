@@ -1,4 +1,8 @@
 {
+  "shared": {
+    "SAR": "ريال",
+    "empty": "فارغ"
+  },
   "login": {
     "username": "اسم المستخدم",
     "password": "الرقم السري",
@@ -41,7 +45,7 @@
     "customerName": "اسم العميل",
     "customerPhone": "جوال العميل",
     "address": "العنوان",
-    "selected": "تم الاختيار...",
+    "selectedLocation": "تم اختيار الموقع...",
     "paymentMethod": "طريقة الدفع",
     "pickUpLocation": "موقع الاستلام",
     "dropLocation": "موقع التسليم",
@@ -51,7 +55,7 @@
     "item": "الطلب",
     "quantity": "العدد",
     "price": "السعر",
-    "itemDescription": "وصف الطلب",
+    "itemDescription": "وصف الطلب للكابتن",
     "add": "اضافة",
     "requestCaptain": "ارسال الطلب لكابتن",
     "captainInformation": "معلومات الكابتن",
@@ -64,14 +68,19 @@
   "orders": {
     "orders": "جميع الطلبات",
     "addNewOrder": "اضافة طلب جديد",
+    "creationDate": "وقت الطلب",
+    "search": "بحث",
     "orderNumber": "رقم الطلب",
-    "fromAgent": "من شركة",
     "toCustomer": "الى عميل",
-    "creationDate": "وقت الطلب"
+    "date": "تاريخ",
+    "time": "وقت",
+    "fromAgent": "من شركة"
+
   },
   "order": {
     "orders": "الطلبات",
     "orderNumber": "الطلب رقم",
+    "orderDetails": "تفاصيل الطلب",
     "agent": "اسم الشركة",
     "productType": "نوع المنتج",
     "customer": "العميل",
@@ -82,21 +91,28 @@
     "description": "الوصف",
     "showMap": "عرض الخريطه مع مكان الكابتن حالياً",
     "location": "الموقع",
+    "address": "العنوان",
+    "orderInGoogleMap": "عرض الطلب على الخريطة",
     "pickupLocation": "مكان استلام الطلب",
     "dropLocation": "مكان تسليم الطلب",
-    "captain": "مكان الكابتن حالياً",
-    "address": "العنوان",
-    "orderItems": "تفاصيل الطلب",
-    "orderStatus": "حالة الطلب",
-    "save": "حفظ",
-    "close": "اغلاق",
-    "item": "المنتج",
-    "quantity": "الكمية",
+    "captainLocation": "مكان كابتن التوصيل",
+    "orderItems": "عناصر الطلب",
+    "item": "العنصر",
+    "quantity": "العدد",
     "price": "السعر",
+    "orderStatus": "حالة الطلب",
     "status": "الحالة",
     "date": "التاريخ",
     "time": "الوقت",
-    "current": "حالي",
-    "noData": "لا يوجد بيانات"
+    "new" :"جديد",
+    "assginedToCaptain" :"تم توجيهه لكابتن",
+    "pickedUp" :"استلمه الكابتن",
+    "progress" :"في الطريق",
+    "dropped" :"تم التوصيل",
+    "Stopped" :"توقف",
+    "end" :"انتهى",
+    "canceled" :"تم الالغاء",
+    "current":"حالياً"
+
   }
 }
