@@ -19,13 +19,13 @@
   },
   "footer": {
     "sender": "sender",
-    "home": "home",
-    "businessOwnerRegistration": "business owner registration",
+    "home": "About us",
+    "businessOwnerRegistration": "Business owner registration",
     "captainRegistration": "Captain Registration",
     "help": "help",
-    "faqs": "faqs",
-    "integrationDocuments": "integration documents",
-    "contactUs": "contact us",
+    "faqs": "FAQs",
+    "integrationDocuments": "Integration documents",
+    "contactUs": "Contact us",
     "copyright": "all copyrights reserved for our company",
     "privacyPolicy": "Privacy Policy"
   },
@@ -40,8 +40,10 @@
     "missionParagraph": "Committed to delivering all orders in accordance with the latest regulations and very precisely in the period of delivery be part of the success story of the client, until the demand perfectly.",
     "vision": "vision",
     "visionParagraph": "To have Sender, one of the pioneers of connectivity in the world starting from Saudi Arabia and the Middle East and even to get into all countries of the world in the field of delivery, an obligation by providing the best technologies and precision-every professional, until the demand perfectly.",
-    "downloadTheApp": "Download the app !",
-    "downloadTheAppParagraph": " We Deliver what you want Quicly"
+    "downloadTheApp": "Dear Captain",
+    "downloadTheAppParagraph1": " Download the app and",
+    "downloadTheAppParagraph2": " increase your income",
+    "downloadTheAppParagraph3": "with us"
   },
   "companyRegistraion": {
     "businessOwnerRegistration": "business owner registration",
@@ -115,7 +117,13 @@
     "subject": "subject",
     "message": "message",
     "send": "send",
-    "getInTouch": "get in touch !"
+    "getInTouch": "get in touch !",
+    "validation": {
+      "required": "This field is required.",
+      "email": "Please enter a valid email"
+    },
+    "feedback": "Sent Successfully.",
+    "fail": "Something went wrong"
   },
   "faq": {
     "frequentlyAskedQuestions": "Frequently Asked Questions",

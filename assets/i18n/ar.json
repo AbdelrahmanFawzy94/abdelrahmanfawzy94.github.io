@@ -40,8 +40,10 @@
     "missionParagraph": "ملتزمون بتوصيل كافة الطلبات وفق أحدث الأنظمة وبدقة متناهية في فترة توصيل مرضية وذلك لتكون جزء من قصة نجاح العميل ",
     "vision": "الرؤية",
     "visionParagraph": "أن يكون سندر أحد رواد التوصيل في الشرق الأوسطً ابتداءً من المملكة العربية السعودية ومن ثم الشرق الأوسط وحتى أن نصل الى كل دول العالم في مجال التوصيل وذلك بالإلتزام من خلال توفير أفضل التقنيات بكل احترافية",
-    "downloadTheApp": "حمل التطبيق !",
-    "downloadTheAppParagraph": " واللي تبيه راح يوصلك بسرعة"
+    "downloadTheApp": "عزيزي الكابتن",
+    "downloadTheAppParagraph1": " حمل التطبيق و",
+    "downloadTheAppParagraph2": "زد دخلك",
+    "downloadTheAppParagraph3": "معنا"
   },
   "companyRegistraion": {
     "businessOwnerRegistration": "تسجيل الشركة ( المتجر )",
@@ -115,7 +117,13 @@
     "subject": "العنوان",
     "message": "اكتب رسالتك ...",
     "send": "ارسال",
-    "getInTouch": "ابق على إتصال بنا !"
+    "getInTouch": "ابق على إتصال بنا !",
+    "validation": {
+      "required": "هذا الحقل مطلوب",
+      "email": "من فضلك قم بإدخال بريد الكتروني صحيح"
+    },
+    "feedback": "تم الارسال بنجاح.",
+    "fail": "حدث خطأ ما، برجاء المحاولة لاحقا."
   },
   "faq": {
     "frequentlyAskedQuestions": "الأسئلة الشائعة",
