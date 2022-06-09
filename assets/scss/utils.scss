@@ -1,0 +1,154 @@
+// text align
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+// text transform
+
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+
+// ripple effect
+
+@keyframes ripple-effect {
+  from {
+    opacity: 1;
+    transform: scale(0);
+  }
+  to {
+    opacity: 0;
+    transform: scale(10);
+  }
+}
+
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.12);
+  width: 100px;
+  height: 100px;
+  margin-top: -50px;
+  margin-left: -50px;
+  // animation: ripple-effect 1s; // in derective as input
+  opacity: 0;
+}
+
+// background
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+// width
+
+.w-100 {
+  width: 100% !important;
+}
+
+.w-75 {
+  width: 75% !important;
+}
+
+.w-50 {
+  width: 50% !important;
+}
+
+.w-33 {
+  width: 33.33333% !important;
+}
+
+.w-25 {
+  width: 25% !important;
+}
+
+// template elements
+
+// h1, h2, h3
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+
+  h3 {
+    font-family: $bold-font;
+    font-weight: unset;
+    font-size: 28px;
+    margin: 0;
+
+    @include xxl {
+      font-size: 2vw;
+    }
+
+    @include lg {
+      font-size: 24px;
+    }
+
+    @include sm {
+      font-size: 18px;
+    }
+  }
+
+  img {
+    margin-top: 10px;
+    transform-origin: top center;
+
+    @include xxl {
+      margin-top: 20px;
+      transform: scale(2);
+    }
+  }
+}
+
+// button
+.general-button {
+  position: relative;
+  padding: 14px 35px;
+  border: 0;
+  // background-color: $primary-lighter-15;
+  background-color: $secondry-lighter-5;
+  color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: 0.1s;
+  cursor: pointer;
+  font-family: Almarai;
+  font-size: 17px;
+
+  &:hover {
+    transform: scale(1.05);
+
+    &::after {
+      background-color: $opacity-white-2;
+      left: 230px;
+    }
+  }
+
+  &::after {
+    content: "";
+    height: 140px;
+    width: 51px;
+    background-color: hsla(0, 0%, 100%, 0.129);
+    position: absolute;
+    top: -55px;
+    left: -40px;
+    transform: rotate(45deg);
+    transition: 0.5s;
+  }
+}

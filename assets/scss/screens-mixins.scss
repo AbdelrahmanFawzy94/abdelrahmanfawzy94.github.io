@@ -1,0 +1,34 @@
+// mobile
+@mixin sm {
+  @media (max-width: 426px) {
+    @content;
+  }
+}
+
+//tablet
+@mixin md {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+// normal laptop
+@mixin lg {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+// big laptop
+@mixin xl {
+  @media (max-width: 1600px) {
+    @content;
+  }
+}
+
+// tv
+@mixin xxl {
+  @media (min-width: 1601px) {
+    @content;
+  }
+}

@@ -1,0 +1,2188 @@
+@import "src/assets/scss/colors";
+
+// themeing material
+
+.mat-form-field.mat-focused .mat-form-field-label {
+  color: $primary;
+}
+
+.mat-form-field-ripple,
+.mat-form-field.mat-focused .mat-form-field-ripple {
+  background-color: $primary;
+}
+
+// *********************************** primary
+
+// text primary
+.text-primary {
+  color: $primary !important;
+}
+
+.text-primary-lighter-5 {
+  color: $primary-lighter-5 !important;
+}
+
+.text-primary-lighter-10 {
+  color: $primary-lighter-10 !important;
+}
+
+.text-primary-lighter-15 {
+  color: $primary-lighter-15 !important;
+}
+
+.text-primary-lighter-20 {
+  color: $primary-lighter-20 !important;
+}
+
+.text-primary-lighter-25 {
+  color: $primary-lighter-25 !important;
+}
+
+.text-primary-lighter-30 {
+  color: $primary-lighter-30 !important;
+}
+
+.text-primary-lighter-35 {
+  color: $primary-lighter-35 !important;
+}
+
+.text-primary-lighter-40 {
+  color: $primary-lighter-40 !important;
+}
+
+.text-primary-lighter-45 {
+  color: $primary-lighter-45 !important;
+}
+
+.text-primary-lighter-50 {
+  color: $primary-lighter-50 !important;
+}
+
+.text-primary-darker-5 {
+  color: $primary-darker-5 !important;
+}
+
+.text-primary-darker-10 {
+  color: $primary-darker-10 !important;
+}
+
+.text-primary-darker-15 {
+  color: $primary-darker-15 !important;
+}
+
+.text-primary-darker-20 {
+  color: $primary-darker-20 !important;
+}
+
+.text-primary-darker-25 {
+  color: $primary-darker-25 !important;
+}
+
+.text-primary-darker-30 {
+  color: $primary-darker-30 !important;
+}
+
+.text-primary-darker-35 {
+  color: $primary-darker-35 !important;
+}
+
+.text-primary-darker-40 {
+  color: $primary-darker-40 !important;
+}
+
+.text-primary-darker-45 {
+  color: $primary-darker-45 !important;
+}
+
+.text-primary-darker-50 {
+  color: $primary-darker-50 !important;
+}
+
+// bg primary
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.bg-primary-opacity-1 {
+  background-color: $opacity-primary-1 !important;
+}
+
+.bg-primary-opacity-2 {
+  background-color: $opacity-primary-2 !important;
+}
+
+.bg-primary-opacity-3 {
+  background-color: $opacity-primary-3 !important;
+}
+
+.bg-primary-opacity-4 {
+  background-color: $opacity-primary-4 !important;
+}
+
+.bg-primary-opacity-5 {
+  background-color: $opacity-primary-5 !important;
+}
+
+.bg-primary-opacity-6 {
+  background-color: $opacity-primary-6 !important;
+}
+
+.bg-primary-opacity-7 {
+  background-color: $opacity-primary-7 !important;
+}
+
+.bg-primary-opacity-8 {
+  background-color: $opacity-primary-8 !important;
+}
+
+.bg-primary-opacity-9 {
+  background-color: $opacity-primary-9 !important;
+}
+
+.bg-rotated-primary {
+  background-color: $rotated-primary !important;
+}
+
+.bg-rotated-primary-opacity-1 {
+  background-color: $opacity-rotated-primary-1 !important;
+}
+
+.bg-rotated-primary-opacity-2 {
+  background-color: $opacity-rotated-primary-2 !important;
+}
+
+.bg-rotated-primary-opacity-3 {
+  background-color: $opacity-rotated-primary-3 !important;
+}
+
+.bg-rotated-primary-opacity-4 {
+  background-color: $opacity-rotated-primary-4 !important;
+}
+
+.bg-rotated-primary-opacity-5 {
+  background-color: $opacity-rotated-primary-5 !important;
+}
+
+.bg-rotated-primary-opacity-6 {
+  background-color: $opacity-rotated-primary-6 !important;
+}
+
+.bg-rotated-primary-opacity-7 {
+  background-color: $opacity-rotated-primary-7 !important;
+}
+
+.bg-rotated-primary-opacity-8 {
+  background-color: $opacity-rotated-primary-8 !important;
+}
+
+.bg-rotated-primary-opacity-9 {
+  background-color: $opacity-rotated-primary-9 !important;
+}
+
+.bg-primary-lighter-5 {
+  background-color: $primary-lighter-5 !important;
+}
+
+.bg-primary-lighter-10 {
+  background-color: $primary-lighter-10 !important;
+}
+
+.bg-primary-lighter-15 {
+  background-color: $primary-lighter-15 !important;
+}
+
+.bg-primary-lighter-20 {
+  background-color: $primary-lighter-20 !important;
+}
+
+.bg-primary-lighter-25 {
+  background-color: $primary-lighter-25 !important;
+}
+
+.bg-primary-lighter-30 {
+  background-color: $primary-lighter-30 !important;
+}
+
+.bg-primary-lighter-35 {
+  background-color: $primary-lighter-35 !important;
+}
+
+.bg-primary-lighter-40 {
+  background-color: $primary-lighter-40 !important;
+}
+
+.bg-primary-lighter-45 {
+  background-color: $primary-lighter-45 !important;
+}
+
+.bg-primary-lighter-50 {
+  background-color: $primary-lighter-50 !important;
+}
+
+.bg-primary-darker-5 {
+  background-color: $primary-darker-5 !important;
+}
+
+.bg-primary-darker-10 {
+  background-color: $primary-darker-10 !important;
+}
+
+.bg-primary-darker-15 {
+  background-color: $primary-darker-15 !important;
+}
+
+.bg-primary-darker-20 {
+  background-color: $primary-darker-20 !important;
+}
+
+.bg-primary-darker-25 {
+  background-color: $primary-darker-25 !important;
+}
+
+.bg-primary-darker-30 {
+  background-color: $primary-darker-30 !important;
+}
+
+.bg-primary-darker-35 {
+  background-color: $primary-darker-35 !important;
+}
+
+.bg-primary-darker-40 {
+  background-color: $primary-darker-40 !important;
+}
+
+.bg-primary-darker-45 {
+  background-color: $primary-darker-45 !important;
+}
+
+.bg-primary-darker-50 {
+  background-color: $primary-darker-50 !important;
+}
+
+.gradient-bg-primary {
+  background-image: linear-gradient(180deg, $primary, $rotated-primary);
+}
+
+.gradient-bg-primary-opacity-1 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-primary-1,
+    $opacity-rotated-primary-1
+  );
+}
+
+.gradient-bg-primary-opacity-2 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-primary-2,
+    $opacity-rotated-primary-2
+  );
+}
+
+.gradient-bg-primary-opacity-3 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-primary-3,
+    $opacity-rotated-primary-3
+  );
+}
+
+.gradient-bg-primary-opacity-4 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-primary-4,
+    $opacity-rotated-primary-4
+  );
+}
+
+.gradient-bg-primary-opacity-5 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-primary-5,
+    $opacity-rotated-primary-5
+  );
+}
+
+.gradient-bg-primary-opacity-6 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-primary-6,
+    $opacity-rotated-primary-6
+  );
+}
+
+.gradient-bg-primary-opacity-7 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-primary-7,
+    $opacity-rotated-primary-7
+  );
+}
+
+.gradient-bg-primary-opacity-8 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-primary-8,
+    $opacity-rotated-primary-8
+  );
+}
+
+.gradient-bg-primary-opacity-9 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-primary-9,
+    $opacity-rotated-primary-9
+  );
+}
+
+// *********************************** secondry
+
+// text secondry
+.text-secondry {
+  color: $secondry !important;
+}
+
+.text-secondry-lighter-5 {
+  color: $secondry-lighter-5 !important;
+}
+
+.text-secondry-lighter-10 {
+  color: $secondry-lighter-10 !important;
+}
+
+.text-secondry-lighter-15 {
+  color: $secondry-lighter-15 !important;
+}
+
+.text-secondry-lighter-20 {
+  color: $secondry-lighter-20 !important;
+}
+
+.text-secondry-lighter-25 {
+  color: $secondry-lighter-25 !important;
+}
+
+.text-secondry-lighter-30 {
+  color: $secondry-lighter-30 !important;
+}
+
+.text-secondry-lighter-35 {
+  color: $secondry-lighter-35 !important;
+}
+
+.text-secondry-lighter-40 {
+  color: $secondry-lighter-40 !important;
+}
+
+.text-secondry-lighter-45 {
+  color: $secondry-lighter-45 !important;
+}
+
+.text-secondry-lighter-50 {
+  color: $secondry-lighter-50 !important;
+}
+
+.text-secondry-darker-5 {
+  color: $secondry-darker-5 !important;
+}
+
+.text-secondry-darker-10 {
+  color: $secondry-darker-10 !important;
+}
+
+.text-secondry-darker-15 {
+  color: $secondry-darker-15 !important;
+}
+
+.text-secondry-darker-20 {
+  color: $secondry-darker-20 !important;
+}
+
+.text-secondry-darker-25 {
+  color: $secondry-darker-25 !important;
+}
+
+.text-secondry-darker-30 {
+  color: $secondry-darker-30 !important;
+}
+
+.text-secondry-darker-35 {
+  color: $secondry-darker-35 !important;
+}
+
+.text-secondry-darker-40 {
+  color: $secondry-darker-40 !important;
+}
+
+.text-secondry-darker-45 {
+  color: $secondry-darker-45 !important;
+}
+
+.text-secondry-darker-50 {
+  color: $secondry-darker-50 !important;
+}
+
+// bg secondry
+.bg-secondry {
+  background-color: $secondry !important;
+}
+
+.bg-secondry-opacity-1 {
+  background-color: $opacity-secondry-1 !important;
+}
+
+.bg-secondry-opacity-2 {
+  background-color: $opacity-secondry-2 !important;
+}
+
+.bg-secondry-opacity-3 {
+  background-color: $opacity-secondry-3 !important;
+}
+
+.bg-secondry-opacity-4 {
+  background-color: $opacity-secondry-4 !important;
+}
+
+.bg-secondry-opacity-5 {
+  background-color: $opacity-secondry-5 !important;
+}
+
+.bg-secondry-opacity-6 {
+  background-color: $opacity-secondry-6 !important;
+}
+
+.bg-secondry-opacity-7 {
+  background-color: $opacity-secondry-7 !important;
+}
+
+.bg-secondry-opacity-8 {
+  background-color: $opacity-secondry-8 !important;
+}
+
+.bg-secondry-opacity-9 {
+  background-color: $opacity-secondry-9 !important;
+}
+
+.bg-rotated-secondry {
+  background-color: $rotated-secondry !important;
+}
+
+.bg-rotated-secondry-opacity-1 {
+  background-color: $opacity-rotated-secondry-1 !important;
+}
+
+.bg-rotated-secondry-opacity-2 {
+  background-color: $opacity-rotated-secondry-2 !important;
+}
+
+.bg-rotated-secondry-opacity-3 {
+  background-color: $opacity-rotated-secondry-3 !important;
+}
+
+.bg-rotated-secondry-opacity-4 {
+  background-color: $opacity-rotated-secondry-4 !important;
+}
+
+.bg-rotated-secondry-opacity-5 {
+  background-color: $opacity-rotated-secondry-5 !important;
+}
+
+.bg-rotated-secondry-opacity-6 {
+  background-color: $opacity-rotated-secondry-6 !important;
+}
+
+.bg-rotated-secondry-opacity-7 {
+  background-color: $opacity-rotated-secondry-7 !important;
+}
+
+.bg-rotated-secondry-opacity-8 {
+  background-color: $opacity-rotated-secondry-8 !important;
+}
+
+.bg-rotated-secondry-opacity-9 {
+  background-color: $opacity-rotated-secondry-9 !important;
+}
+
+.bg-secondry-lighter-5 {
+  background-color: $secondry-lighter-5 !important;
+}
+
+.bg-secondry-lighter-10 {
+  background-color: $secondry-lighter-10 !important;
+}
+
+.bg-secondry-lighter-15 {
+  background-color: $secondry-lighter-15 !important;
+}
+
+.bg-secondry-lighter-20 {
+  background-color: $secondry-lighter-20 !important;
+}
+
+.bg-secondry-lighter-25 {
+  background-color: $secondry-lighter-25 !important;
+}
+
+.bg-secondry-lighter-30 {
+  background-color: $secondry-lighter-30 !important;
+}
+
+.bg-secondry-lighter-35 {
+  background-color: $secondry-lighter-35 !important;
+}
+
+.bg-secondry-lighter-40 {
+  background-color: $secondry-lighter-40 !important;
+}
+
+.bg-secondry-lighter-45 {
+  background-color: $secondry-lighter-45 !important;
+}
+
+.bg-secondry-lighter-50 {
+  background-color: $secondry-lighter-50 !important;
+}
+
+.bg-secondry-darker-5 {
+  background-color: $secondry-darker-5 !important;
+}
+
+.bg-secondry-darker-10 {
+  background-color: $secondry-darker-10 !important;
+}
+
+.bg-secondry-darker-15 {
+  background-color: $secondry-darker-15 !important;
+}
+
+.bg-secondry-darker-20 {
+  background-color: $secondry-darker-20 !important;
+}
+
+.bg-secondry-darker-25 {
+  background-color: $secondry-darker-25 !important;
+}
+
+.bg-secondry-darker-30 {
+  background-color: $secondry-darker-30 !important;
+}
+
+.bg-secondry-darker-35 {
+  background-color: $secondry-darker-35 !important;
+}
+
+.bg-secondry-darker-40 {
+  background-color: $secondry-darker-40 !important;
+}
+
+.bg-secondry-darker-45 {
+  background-color: $secondry-darker-45 !important;
+}
+
+.bg-secondry-darker-50 {
+  background-color: $secondry-darker-50 !important;
+}
+
+.gradient-bg-secondry {
+  background-image: linear-gradient(180deg, $secondry, $rotated-secondry);
+}
+
+.gradient-bg-secondry-opacity-1 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-secondry-1,
+    $opacity-rotated-secondry-1
+  );
+}
+
+.gradient-bg-secondry-opacity-2 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-secondry-2,
+    $opacity-rotated-secondry-2
+  );
+}
+
+.gradient-bg-secondry-opacity-3 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-secondry-3,
+    $opacity-rotated-secondry-3
+  );
+}
+
+.gradient-bg-secondry-opacity-4 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-secondry-4,
+    $opacity-rotated-secondry-4
+  );
+}
+
+.gradient-bg-secondry-opacity-5 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-secondry-5,
+    $opacity-rotated-secondry-5
+  );
+}
+
+.gradient-bg-secondry-opacity-6 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-secondry-6,
+    $opacity-rotated-secondry-6
+  );
+}
+
+.gradient-bg-secondry-opacity-7 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-secondry-7,
+    $opacity-rotated-secondry-7
+  );
+}
+
+.gradient-bg-secondry-opacity-8 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-secondry-8,
+    $opacity-rotated-secondry-8
+  );
+}
+
+.gradient-bg-secondry-opacity-9 {
+  background-image: linear-gradient(
+    180deg,
+    $opacity-secondry-9,
+    $opacity-rotated-secondry-9
+  );
+}
+
+// *********************************** info
+
+// text info
+.text-info {
+  color: $info !important;
+}
+
+.text-info-lighter-5 {
+  color: $info-lighter-5 !important;
+}
+
+.text-info-lighter-10 {
+  color: $info-lighter-10 !important;
+}
+
+.text-info-lighter-15 {
+  color: $info-lighter-15 !important;
+}
+
+.text-info-lighter-20 {
+  color: $info-lighter-20 !important;
+}
+
+.text-info-lighter-25 {
+  color: $info-lighter-25 !important;
+}
+
+.text-info-lighter-30 {
+  color: $info-lighter-30 !important;
+}
+
+.text-info-lighter-35 {
+  color: $info-lighter-35 !important;
+}
+
+.text-info-lighter-40 {
+  color: $info-lighter-40 !important;
+}
+
+.text-info-lighter-45 {
+  color: $info-lighter-45 !important;
+}
+
+.text-info-lighter-50 {
+  color: $info-lighter-50 !important;
+}
+
+.text-info-darker-5 {
+  color: $info-darker-5 !important;
+}
+
+.text-info-darker-10 {
+  color: $info-darker-10 !important;
+}
+
+.text-info-darker-15 {
+  color: $info-darker-15 !important;
+}
+
+.text-info-darker-20 {
+  color: $info-darker-20 !important;
+}
+
+.text-info-darker-25 {
+  color: $info-darker-25 !important;
+}
+
+.text-info-darker-30 {
+  color: $info-darker-30 !important;
+}
+
+.text-info-darker-35 {
+  color: $info-darker-35 !important;
+}
+
+.text-info-darker-40 {
+  color: $info-darker-40 !important;
+}
+
+.text-info-darker-45 {
+  color: $info-darker-45 !important;
+}
+
+.text-info-darker-50 {
+  color: $info-darker-50 !important;
+}
+
+// bg info
+.bg-info {
+  background-color: $info !important;
+}
+
+.bg-info-opacity-1 {
+  background-color: $opacity-info-1 !important;
+}
+
+.bg-info-opacity-2 {
+  background-color: $opacity-info-2 !important;
+}
+
+.bg-info-opacity-3 {
+  background-color: $opacity-info-3 !important;
+}
+
+.bg-info-opacity-4 {
+  background-color: $opacity-info-4 !important;
+}
+
+.bg-info-opacity-5 {
+  background-color: $opacity-info-5 !important;
+}
+
+.bg-info-opacity-6 {
+  background-color: $opacity-info-6 !important;
+}
+
+.bg-info-opacity-7 {
+  background-color: $opacity-info-7 !important;
+}
+
+.bg-info-opacity-8 {
+  background-color: $opacity-info-8 !important;
+}
+
+.bg-info-opacity-9 {
+  background-color: $opacity-info-9 !important;
+}
+
+.bg-info-lighter-5 {
+  background-color: $info-lighter-5 !important;
+}
+
+.bg-info-lighter-10 {
+  background-color: $info-lighter-10 !important;
+}
+
+.bg-info-lighter-15 {
+  background-color: $info-lighter-15 !important;
+}
+
+.bg-info-lighter-20 {
+  background-color: $info-lighter-20 !important;
+}
+
+.bg-info-lighter-25 {
+  background-color: $info-lighter-25 !important;
+}
+
+.bg-info-lighter-30 {
+  background-color: $info-lighter-30 !important;
+}
+
+.bg-info-lighter-35 {
+  background-color: $info-lighter-35 !important;
+}
+
+.bg-info-lighter-40 {
+  background-color: $info-lighter-40 !important;
+}
+
+.bg-info-lighter-45 {
+  background-color: $info-lighter-45 !important;
+}
+
+.bg-info-lighter-50 {
+  background-color: $info-lighter-50 !important;
+}
+
+.bg-info-darker-5 {
+  background-color: $info-darker-5 !important;
+}
+
+.bg-info-darker-10 {
+  background-color: $info-darker-10 !important;
+}
+
+.bg-info-darker-15 {
+  background-color: $info-darker-15 !important;
+}
+
+.bg-info-darker-20 {
+  background-color: $info-darker-20 !important;
+}
+
+.bg-info-darker-25 {
+  background-color: $info-darker-25 !important;
+}
+
+.bg-info-darker-30 {
+  background-color: $info-darker-30 !important;
+}
+
+.bg-info-darker-35 {
+  background-color: $info-darker-35 !important;
+}
+
+.bg-info-darker-40 {
+  background-color: $info-darker-40 !important;
+}
+
+.bg-info-darker-45 {
+  background-color: $info-darker-45 !important;
+}
+
+.bg-info-darker-50 {
+  background-color: $info-darker-50 !important;
+}
+
+.gradient-bg-info {
+  background-image: linear-gradient(180deg, $info, $info-darker-10);
+}
+
+// *********************************** success
+
+// text success
+.text-success {
+  color: $success !important;
+}
+
+.text-success-lighter-5 {
+  color: $success-lighter-5 !important;
+}
+
+.text-success-lighter-10 {
+  color: $success-lighter-10 !important;
+}
+
+.text-success-lighter-15 {
+  color: $success-lighter-15 !important;
+}
+
+.text-success-lighter-20 {
+  color: $success-lighter-20 !important;
+}
+
+.text-success-lighter-25 {
+  color: $success-lighter-25 !important;
+}
+
+.text-success-lighter-30 {
+  color: $success-lighter-30 !important;
+}
+
+.text-success-lighter-35 {
+  color: $success-lighter-35 !important;
+}
+
+.text-success-lighter-40 {
+  color: $success-lighter-40 !important;
+}
+
+.text-success-lighter-45 {
+  color: $success-lighter-45 !important;
+}
+
+.text-success-lighter-50 {
+  color: $success-lighter-50 !important;
+}
+
+.text-success-darker-5 {
+  color: $success-darker-5 !important;
+}
+
+.text-success-darker-10 {
+  color: $success-darker-10 !important;
+}
+
+.text-success-darker-15 {
+  color: $success-darker-15 !important;
+}
+
+.text-success-darker-20 {
+  color: $success-darker-20 !important;
+}
+
+.text-success-darker-25 {
+  color: $success-darker-25 !important;
+}
+
+.text-success-darker-30 {
+  color: $success-darker-30 !important;
+}
+
+.text-success-darker-35 {
+  color: $success-darker-35 !important;
+}
+
+.text-success-darker-40 {
+  color: $success-darker-40 !important;
+}
+
+.text-success-darker-45 {
+  color: $success-darker-45 !important;
+}
+
+.text-success-darker-50 {
+  color: $success-darker-50 !important;
+}
+
+// bg success
+.bg-success {
+  background-color: $success !important;
+}
+
+.bg-success-opacity-1 {
+  background-color: $opacity-success-1 !important;
+}
+
+.bg-success-opacity-2 {
+  background-color: $opacity-success-2 !important;
+}
+
+.bg-success-opacity-3 {
+  background-color: $opacity-success-3 !important;
+}
+
+.bg-success-opacity-4 {
+  background-color: $opacity-success-4 !important;
+}
+
+.bg-success-opacity-5 {
+  background-color: $opacity-success-5 !important;
+}
+
+.bg-success-opacity-6 {
+  background-color: $opacity-success-6 !important;
+}
+
+.bg-success-opacity-7 {
+  background-color: $opacity-success-7 !important;
+}
+
+.bg-success-opacity-8 {
+  background-color: $opacity-success-8 !important;
+}
+
+.bg-success-opacity-9 {
+  background-color: $opacity-success-9 !important;
+}
+
+.bg-success-lighter-5 {
+  background-color: $success-lighter-5 !important;
+}
+
+.bg-success-lighter-10 {
+  background-color: $success-lighter-10 !important;
+}
+
+.bg-success-lighter-15 {
+  background-color: $success-lighter-15 !important;
+}
+
+.bg-success-lighter-20 {
+  background-color: $success-lighter-20 !important;
+}
+
+.bg-success-lighter-25 {
+  background-color: $success-lighter-25 !important;
+}
+
+.bg-success-lighter-30 {
+  background-color: $success-lighter-30 !important;
+}
+
+.bg-success-lighter-35 {
+  background-color: $success-lighter-35 !important;
+}
+
+.bg-success-lighter-40 {
+  background-color: $success-lighter-40 !important;
+}
+
+.bg-success-lighter-45 {
+  background-color: $success-lighter-45 !important;
+}
+
+.bg-success-lighter-50 {
+  background-color: $success-lighter-50 !important;
+}
+
+.bg-success-darker-5 {
+  background-color: $success-darker-5 !important;
+}
+
+.bg-success-darker-10 {
+  background-color: $success-darker-10 !important;
+}
+
+.bg-success-darker-15 {
+  background-color: $success-darker-15 !important;
+}
+
+.bg-success-darker-20 {
+  background-color: $success-darker-20 !important;
+}
+
+.bg-success-darker-25 {
+  background-color: $success-darker-25 !important;
+}
+
+.bg-success-darker-30 {
+  background-color: $success-darker-30 !important;
+}
+
+.bg-success-darker-35 {
+  background-color: $success-darker-35 !important;
+}
+
+.bg-success-darker-40 {
+  background-color: $success-darker-40 !important;
+}
+
+.bg-success-darker-45 {
+  background-color: $success-darker-45 !important;
+}
+
+.bg-success-darker-50 {
+  background-color: $success-darker-50 !important;
+}
+
+.gradient-bg-success {
+  background-image: linear-gradient(180deg, $success, $success-darker-10);
+}
+
+// *********************************** warning
+
+// text warning
+.text-warning {
+  color: $warning !important;
+}
+
+.text-warning-lighter-5 {
+  color: $warning-lighter-5 !important;
+}
+
+.text-warning-lighter-10 {
+  color: $warning-lighter-10 !important;
+}
+
+.text-warning-lighter-15 {
+  color: $warning-lighter-15 !important;
+}
+
+.text-warning-lighter-20 {
+  color: $warning-lighter-20 !important;
+}
+
+.text-warning-lighter-25 {
+  color: $warning-lighter-25 !important;
+}
+
+.text-warning-lighter-30 {
+  color: $warning-lighter-30 !important;
+}
+
+.text-warning-lighter-35 {
+  color: $warning-lighter-35 !important;
+}
+
+.text-warning-lighter-40 {
+  color: $warning-lighter-40 !important;
+}
+
+.text-warning-lighter-45 {
+  color: $warning-lighter-45 !important;
+}
+
+.text-warning-lighter-50 {
+  color: $warning-lighter-50 !important;
+}
+
+.text-warning-darker-5 {
+  color: $warning-darker-5 !important;
+}
+
+.text-warning-darker-10 {
+  color: $warning-darker-10 !important;
+}
+
+.text-warning-darker-15 {
+  color: $warning-darker-15 !important;
+}
+
+.text-warning-darker-20 {
+  color: $warning-darker-20 !important;
+}
+
+.text-warning-darker-25 {
+  color: $warning-darker-25 !important;
+}
+
+.text-warning-darker-30 {
+  color: $warning-darker-30 !important;
+}
+
+.text-warning-darker-35 {
+  color: $warning-darker-35 !important;
+}
+
+.text-warning-darker-40 {
+  color: $warning-darker-40 !important;
+}
+
+.text-warning-darker-45 {
+  color: $warning-darker-45 !important;
+}
+
+.text-warning-darker-50 {
+  color: $warning-darker-50 !important;
+}
+
+// bg warning
+.bg-warning {
+  background-color: $warning !important;
+}
+
+.bg-warning-opacity-1 {
+  background-color: $opacity-warning-1 !important;
+}
+
+.bg-warning-opacity-2 {
+  background-color: $opacity-warning-2 !important;
+}
+
+.bg-warning-opacity-3 {
+  background-color: $opacity-warning-3 !important;
+}
+
+.bg-warning-opacity-4 {
+  background-color: $opacity-warning-4 !important;
+}
+
+.bg-warning-opacity-5 {
+  background-color: $opacity-warning-5 !important;
+}
+
+.bg-warning-opacity-6 {
+  background-color: $opacity-warning-6 !important;
+}
+
+.bg-warning-opacity-7 {
+  background-color: $opacity-warning-7 !important;
+}
+
+.bg-warning-opacity-8 {
+  background-color: $opacity-warning-8 !important;
+}
+
+.bg-warning-opacity-9 {
+  background-color: $opacity-warning-9 !important;
+}
+
+.bg-warning-lighter-5 {
+  background-color: $warning-lighter-5 !important;
+}
+
+.bg-warning-lighter-10 {
+  background-color: $warning-lighter-10 !important;
+}
+
+.bg-warning-lighter-15 {
+  background-color: $warning-lighter-15 !important;
+}
+
+.bg-warning-lighter-20 {
+  background-color: $warning-lighter-20 !important;
+}
+
+.bg-warning-lighter-25 {
+  background-color: $warning-lighter-25 !important;
+}
+
+.bg-warning-lighter-30 {
+  background-color: $warning-lighter-30 !important;
+}
+
+.bg-warning-lighter-35 {
+  background-color: $warning-lighter-35 !important;
+}
+
+.bg-warning-lighter-40 {
+  background-color: $warning-lighter-40 !important;
+}
+
+.bg-warning-lighter-45 {
+  background-color: $warning-lighter-45 !important;
+}
+
+.bg-warning-lighter-50 {
+  background-color: $warning-lighter-50 !important;
+}
+
+.bg-warning-darker-5 {
+  background-color: $warning-darker-5 !important;
+}
+
+.bg-warning-darker-10 {
+  background-color: $warning-darker-10 !important;
+}
+
+.bg-warning-darker-15 {
+  background-color: $warning-darker-15 !important;
+}
+
+.bg-warning-darker-20 {
+  background-color: $warning-darker-20 !important;
+}
+
+.bg-warning-darker-25 {
+  background-color: $warning-darker-25 !important;
+}
+
+.bg-warning-darker-30 {
+  background-color: $warning-darker-30 !important;
+}
+
+.bg-warning-darker-35 {
+  background-color: $warning-darker-35 !important;
+}
+
+.bg-warning-darker-40 {
+  background-color: $warning-darker-40 !important;
+}
+
+.bg-warning-darker-45 {
+  background-color: $warning-darker-45 !important;
+}
+
+.bg-warning-darker-50 {
+  background-color: $warning-darker-50 !important;
+}
+
+.gradient-bg-warning {
+  background-image: linear-gradient(180deg, $warning, $warning-darker-10);
+}
+
+// *********************************** danger
+
+// text danger
+.text-danger {
+  color: $danger !important;
+}
+
+.text-danger-lighter-5 {
+  color: $danger-lighter-5 !important;
+}
+
+.text-danger-lighter-10 {
+  color: $danger-lighter-10 !important;
+}
+
+.text-danger-lighter-15 {
+  color: $danger-lighter-15 !important;
+}
+
+.text-danger-lighter-20 {
+  color: $danger-lighter-20 !important;
+}
+
+.text-danger-lighter-25 {
+  color: $danger-lighter-25 !important;
+}
+
+.text-danger-lighter-30 {
+  color: $danger-lighter-30 !important;
+}
+
+.text-danger-lighter-35 {
+  color: $danger-lighter-35 !important;
+}
+
+.text-danger-lighter-40 {
+  color: $danger-lighter-40 !important;
+}
+
+.text-danger-lighter-45 {
+  color: $danger-lighter-45 !important;
+}
+
+.text-danger-lighter-50 {
+  color: $danger-lighter-50 !important;
+}
+
+.text-danger-darker-5 {
+  color: $danger-darker-5 !important;
+}
+
+.text-danger-darker-10 {
+  color: $danger-darker-10 !important;
+}
+
+.text-danger-darker-15 {
+  color: $danger-darker-15 !important;
+}
+
+.text-danger-darker-20 {
+  color: $danger-darker-20 !important;
+}
+
+.text-danger-darker-25 {
+  color: $danger-darker-25 !important;
+}
+
+.text-danger-darker-30 {
+  color: $danger-darker-30 !important;
+}
+
+.text-danger-darker-35 {
+  color: $danger-darker-35 !important;
+}
+
+.text-danger-darker-40 {
+  color: $danger-darker-40 !important;
+}
+
+.text-danger-darker-45 {
+  color: $danger-darker-45 !important;
+}
+
+.text-danger-darker-50 {
+  color: $danger-darker-50 !important;
+}
+
+// bg danger
+.bg-danger {
+  background-color: $danger !important;
+}
+
+.bg-danger-opacity-1 {
+  background-color: $opacity-danger-1 !important;
+}
+
+.bg-danger-opacity-2 {
+  background-color: $opacity-danger-2 !important;
+}
+
+.bg-danger-opacity-3 {
+  background-color: $opacity-danger-3 !important;
+}
+
+.bg-danger-opacity-4 {
+  background-color: $opacity-danger-4 !important;
+}
+
+.bg-danger-opacity-5 {
+  background-color: $opacity-danger-5 !important;
+}
+
+.bg-danger-opacity-6 {
+  background-color: $opacity-danger-6 !important;
+}
+
+.bg-danger-opacity-7 {
+  background-color: $opacity-danger-7 !important;
+}
+
+.bg-danger-opacity-8 {
+  background-color: $opacity-danger-8 !important;
+}
+
+.bg-danger-opacity-9 {
+  background-color: $opacity-danger-9 !important;
+}
+
+.bg-danger-lighter-5 {
+  background-color: $danger-lighter-5 !important;
+}
+
+.bg-danger-lighter-10 {
+  background-color: $danger-lighter-10 !important;
+}
+
+.bg-danger-lighter-15 {
+  background-color: $danger-lighter-15 !important;
+}
+
+.bg-danger-lighter-20 {
+  background-color: $danger-lighter-20 !important;
+}
+
+.bg-danger-lighter-25 {
+  background-color: $danger-lighter-25 !important;
+}
+
+.bg-danger-lighter-30 {
+  background-color: $danger-lighter-30 !important;
+}
+
+.bg-danger-lighter-35 {
+  background-color: $danger-lighter-35 !important;
+}
+
+.bg-danger-lighter-40 {
+  background-color: $danger-lighter-40 !important;
+}
+
+.bg-danger-lighter-45 {
+  background-color: $danger-lighter-45 !important;
+}
+
+.bg-danger-lighter-50 {
+  background-color: $danger-lighter-50 !important;
+}
+
+.bg-danger-darker-5 {
+  background-color: $danger-darker-5 !important;
+}
+
+.bg-danger-darker-10 {
+  background-color: $danger-darker-10 !important;
+}
+
+.bg-danger-darker-15 {
+  background-color: $danger-darker-15 !important;
+}
+
+.bg-danger-darker-20 {
+  background-color: $danger-darker-20 !important;
+}
+
+.bg-danger-darker-25 {
+  background-color: $danger-darker-25 !important;
+}
+
+.bg-danger-darker-30 {
+  background-color: $danger-darker-30 !important;
+}
+
+.bg-danger-darker-35 {
+  background-color: $danger-darker-35 !important;
+}
+
+.bg-danger-darker-40 {
+  background-color: $danger-darker-40 !important;
+}
+
+.bg-danger-darker-45 {
+  background-color: $danger-darker-45 !important;
+}
+
+.bg-danger-darker-50 {
+  background-color: $danger-darker-50 !important;
+}
+
+.gradient-bg-danger {
+  background-image: linear-gradient(180deg, $danger, $danger-darker-10);
+}
+
+// *********************************** rose
+
+// text rose
+.text-rose {
+  color: $rose !important;
+}
+
+.text-rose-lighter-5 {
+  color: $rose-lighter-5 !important;
+}
+
+.text-rose-lighter-10 {
+  color: $rose-lighter-10 !important;
+}
+
+.text-rose-lighter-15 {
+  color: $rose-lighter-15 !important;
+}
+
+.text-rose-lighter-20 {
+  color: $rose-lighter-20 !important;
+}
+
+.text-rose-lighter-25 {
+  color: $rose-lighter-25 !important;
+}
+
+.text-rose-lighter-30 {
+  color: $rose-lighter-30 !important;
+}
+
+.text-rose-lighter-35 {
+  color: $rose-lighter-35 !important;
+}
+
+.text-rose-lighter-40 {
+  color: $rose-lighter-40 !important;
+}
+
+.text-rose-lighter-45 {
+  color: $rose-lighter-45 !important;
+}
+
+.text-rose-lighter-50 {
+  color: $rose-lighter-50 !important;
+}
+
+.text-rose-darker-5 {
+  color: $rose-darker-5 !important;
+}
+
+.text-rose-darker-10 {
+  color: $rose-darker-10 !important;
+}
+
+.text-rose-darker-15 {
+  color: $rose-darker-15 !important;
+}
+
+.text-rose-darker-20 {
+  color: $rose-darker-20 !important;
+}
+
+.text-rose-darker-25 {
+  color: $rose-darker-25 !important;
+}
+
+.text-rose-darker-30 {
+  color: $rose-darker-30 !important;
+}
+
+.text-rose-darker-35 {
+  color: $rose-darker-35 !important;
+}
+
+.text-rose-darker-40 {
+  color: $rose-darker-40 !important;
+}
+
+.text-rose-darker-45 {
+  color: $rose-darker-45 !important;
+}
+
+.text-rose-darker-50 {
+  color: $rose-darker-50 !important;
+}
+
+// bg rose
+.bg-rose {
+  background-color: $rose !important;
+}
+
+.bg-rose-opacity-1 {
+  background-color: $opacity-rose-1 !important;
+}
+
+.bg-rose-opacity-2 {
+  background-color: $opacity-rose-2 !important;
+}
+
+.bg-rose-opacity-3 {
+  background-color: $opacity-rose-3 !important;
+}
+
+.bg-rose-opacity-4 {
+  background-color: $opacity-rose-4 !important;
+}
+
+.bg-rose-opacity-5 {
+  background-color: $opacity-rose-5 !important;
+}
+
+.bg-rose-opacity-6 {
+  background-color: $opacity-rose-6 !important;
+}
+
+.bg-rose-opacity-7 {
+  background-color: $opacity-rose-7 !important;
+}
+
+.bg-rose-opacity-8 {
+  background-color: $opacity-rose-8 !important;
+}
+
+.bg-rose-opacity-9 {
+  background-color: $opacity-rose-9 !important;
+}
+
+.bg-rose-lighter-5 {
+  background-color: $rose-lighter-5 !important;
+}
+
+.bg-rose-lighter-10 {
+  background-color: $rose-lighter-10 !important;
+}
+
+.bg-rose-lighter-15 {
+  background-color: $rose-lighter-15 !important;
+}
+
+.bg-rose-lighter-20 {
+  background-color: $rose-lighter-20 !important;
+}
+
+.bg-rose-lighter-25 {
+  background-color: $rose-lighter-25 !important;
+}
+
+.bg-rose-lighter-30 {
+  background-color: $rose-lighter-30 !important;
+}
+
+.bg-rose-lighter-35 {
+  background-color: $rose-lighter-35 !important;
+}
+
+.bg-rose-lighter-40 {
+  background-color: $rose-lighter-40 !important;
+}
+
+.bg-rose-lighter-45 {
+  background-color: $rose-lighter-45 !important;
+}
+
+.bg-rose-lighter-50 {
+  background-color: $rose-lighter-50 !important;
+}
+
+.bg-rose-darker-5 {
+  background-color: $rose-darker-5 !important;
+}
+
+.bg-rose-darker-10 {
+  background-color: $rose-darker-10 !important;
+}
+
+.bg-rose-darker-15 {
+  background-color: $rose-darker-15 !important;
+}
+
+.bg-rose-darker-20 {
+  background-color: $rose-darker-20 !important;
+}
+
+.bg-rose-darker-25 {
+  background-color: $rose-darker-25 !important;
+}
+
+.bg-rose-darker-30 {
+  background-color: $rose-darker-30 !important;
+}
+
+.bg-rose-darker-35 {
+  background-color: $rose-darker-35 !important;
+}
+
+.bg-rose-darker-40 {
+  background-color: $rose-darker-40 !important;
+}
+
+.bg-rose-darker-45 {
+  background-color: $rose-darker-45 !important;
+}
+
+.bg-rose-darker-50 {
+  background-color: $rose-darker-50 !important;
+}
+
+.gradient-bg-rose {
+  background-image: linear-gradient(180deg, $rose, $rose-darker-10);
+}
+
+// *********************************** purple
+
+// text purple
+.text-purple {
+  color: $purple !important;
+}
+
+.text-purple-lighter-5 {
+  color: $purple-lighter-5 !important;
+}
+
+.text-purple-lighter-10 {
+  color: $purple-lighter-10 !important;
+}
+
+.text-purple-lighter-15 {
+  color: $purple-lighter-15 !important;
+}
+
+.text-purple-lighter-20 {
+  color: $purple-lighter-20 !important;
+}
+
+.text-purple-lighter-25 {
+  color: $purple-lighter-25 !important;
+}
+
+.text-purple-lighter-30 {
+  color: $purple-lighter-30 !important;
+}
+
+.text-purple-lighter-35 {
+  color: $purple-lighter-35 !important;
+}
+
+.text-purple-lighter-40 {
+  color: $purple-lighter-40 !important;
+}
+
+.text-purple-lighter-45 {
+  color: $purple-lighter-45 !important;
+}
+
+.text-purple-lighter-50 {
+  color: $purple-lighter-50 !important;
+}
+
+.text-purple-darker-5 {
+  color: $purple-darker-5 !important;
+}
+
+.text-purple-darker-10 {
+  color: $purple-darker-10 !important;
+}
+
+.text-purple-darker-15 {
+  color: $purple-darker-15 !important;
+}
+
+.text-purple-darker-20 {
+  color: $purple-darker-20 !important;
+}
+
+.text-purple-darker-25 {
+  color: $purple-darker-25 !important;
+}
+
+.text-purple-darker-30 {
+  color: $purple-darker-30 !important;
+}
+
+.text-purple-darker-35 {
+  color: $purple-darker-35 !important;
+}
+
+.text-purple-darker-40 {
+  color: $purple-darker-40 !important;
+}
+
+.text-purple-darker-45 {
+  color: $purple-darker-45 !important;
+}
+
+.text-purple-darker-50 {
+  color: $purple-darker-50 !important;
+}
+
+// bg purple
+.bg-purple {
+  background-color: $purple !important;
+}
+
+.bg-purple-opacity-1 {
+  background-color: $opacity-purple-1 !important;
+}
+
+.bg-purple-opacity-2 {
+  background-color: $opacity-purple-2 !important;
+}
+
+.bg-purple-opacity-3 {
+  background-color: $opacity-purple-3 !important;
+}
+
+.bg-purple-opacity-4 {
+  background-color: $opacity-purple-4 !important;
+}
+
+.bg-purple-opacity-5 {
+  background-color: $opacity-purple-5 !important;
+}
+
+.bg-purple-opacity-6 {
+  background-color: $opacity-purple-6 !important;
+}
+
+.bg-purple-opacity-7 {
+  background-color: $opacity-purple-7 !important;
+}
+
+.bg-purple-opacity-8 {
+  background-color: $opacity-purple-8 !important;
+}
+
+.bg-purple-opacity-9 {
+  background-color: $opacity-purple-9 !important;
+}
+
+.bg-purple-lighter-5 {
+  background-color: $purple-lighter-5 !important;
+}
+
+.bg-purple-lighter-10 {
+  background-color: $purple-lighter-10 !important;
+}
+
+.bg-purple-lighter-15 {
+  background-color: $purple-lighter-15 !important;
+}
+
+.bg-purple-lighter-20 {
+  background-color: $purple-lighter-20 !important;
+}
+
+.bg-purple-lighter-25 {
+  background-color: $purple-lighter-25 !important;
+}
+
+.bg-purple-lighter-30 {
+  background-color: $purple-lighter-30 !important;
+}
+
+.bg-purple-lighter-35 {
+  background-color: $purple-lighter-35 !important;
+}
+
+.bg-purple-lighter-40 {
+  background-color: $purple-lighter-40 !important;
+}
+
+.bg-purple-lighter-45 {
+  background-color: $purple-lighter-45 !important;
+}
+
+.bg-purple-lighter-50 {
+  background-color: $purple-lighter-50 !important;
+}
+
+.bg-purple-darker-5 {
+  background-color: $purple-darker-5 !important;
+}
+
+.bg-purple-darker-10 {
+  background-color: $purple-darker-10 !important;
+}
+
+.bg-purple-darker-15 {
+  background-color: $purple-darker-15 !important;
+}
+
+.bg-purple-darker-20 {
+  background-color: $purple-darker-20 !important;
+}
+
+.bg-purple-darker-25 {
+  background-color: $purple-darker-25 !important;
+}
+
+.bg-purple-darker-30 {
+  background-color: $purple-darker-30 !important;
+}
+
+.bg-purple-darker-35 {
+  background-color: $purple-darker-35 !important;
+}
+
+.bg-purple-darker-40 {
+  background-color: $purple-darker-40 !important;
+}
+
+.bg-purple-darker-45 {
+  background-color: $purple-darker-45 !important;
+}
+
+.bg-purple-darker-50 {
+  background-color: $purple-darker-50 !important;
+}
+
+.gradient-bg-purple {
+  background-image: linear-gradient(180deg, $purple, $purple-darker-10);
+}
+
+// *********************************** white
+
+// text white
+.text-white {
+  color: $white !important;
+}
+
+.text-white-darker-5 {
+  color: $white-darker-5 !important;
+}
+
+.text-white-darker-10 {
+  color: $white-darker-10 !important;
+}
+
+.text-white-darker-15 {
+  color: $white-darker-15 !important;
+}
+
+.text-white-darker-20 {
+  color: $white-darker-20 !important;
+}
+
+.text-white-darker-25 {
+  color: $white-darker-25 !important;
+}
+
+.text-white-darker-30 {
+  color: $white-darker-30 !important;
+}
+
+.text-white-darker-35 {
+  color: $white-darker-35 !important;
+}
+
+.text-white-darker-40 {
+  color: $white-darker-40 !important;
+}
+
+.text-white-darker-45 {
+  color: $white-darker-45 !important;
+}
+
+.text-white-darker-50 {
+  color: $white-darker-50 !important;
+}
+
+// bg white
+.bg-white {
+  background-color: $white !important;
+}
+
+.bg-white-opacity-1 {
+  background-color: $opacity-white-1 !important;
+}
+
+.bg-white-opacity-2 {
+  background-color: $opacity-white-2 !important;
+}
+
+.bg-white-opacity-3 {
+  background-color: $opacity-white-3 !important;
+}
+
+.bg-white-opacity-4 {
+  background-color: $opacity-white-4 !important;
+}
+
+.bg-white-opacity-5 {
+  background-color: $opacity-white-5 !important;
+}
+
+.bg-white-opacity-6 {
+  background-color: $opacity-white-6 !important;
+}
+
+.bg-white-opacity-7 {
+  background-color: $opacity-white-7 !important;
+}
+
+.bg-white-opacity-8 {
+  background-color: $opacity-white-8 !important;
+}
+
+.bg-white-opacity-9 {
+  background-color: $opacity-white-9 !important;
+}
+
+.bg-white-darker-5 {
+  background-color: $white-darker-5 !important;
+}
+
+.bg-white-darker-10 {
+  background-color: $white-darker-10 !important;
+}
+
+.bg-white-darker-15 {
+  background-color: $white-darker-15 !important;
+}
+
+.bg-white-darker-20 {
+  background-color: $white-darker-20 !important;
+}
+
+.bg-white-darker-25 {
+  background-color: $white-darker-25 !important;
+}
+
+.bg-white-darker-30 {
+  background-color: $white-darker-30 !important;
+}
+
+.bg-white-darker-35 {
+  background-color: $white-darker-35 !important;
+}
+
+.bg-white-darker-40 {
+  background-color: $white-darker-40 !important;
+}
+
+.bg-white-darker-45 {
+  background-color: $white-darker-45 !important;
+}
+
+.bg-white-darker-50 {
+  background-color: $white-darker-50 !important;
+}
+
+// *********************************** black
+
+// text black
+.text-black {
+  color: $black !important;
+}
+
+.text-black-lighter-5 {
+  color: $black-lighter-5 !important;
+}
+
+.text-black-lighter-10 {
+  color: $black-lighter-10 !important;
+}
+
+.text-black-lighter-15 {
+  color: $black-lighter-15 !important;
+}
+
+.text-black-lighter-20 {
+  color: $black-lighter-20 !important;
+}
+
+.text-black-lighter-25 {
+  color: $black-lighter-25 !important;
+}
+
+.text-black-lighter-30 {
+  color: $black-lighter-30 !important;
+}
+
+.text-black-lighter-35 {
+  color: $black-lighter-35 !important;
+}
+
+.text-black-lighter-40 {
+  color: $black-lighter-40 !important;
+}
+
+.text-black-lighter-45 {
+  color: $black-lighter-45 !important;
+}
+
+.text-black-lighter-50 {
+  color: $black-lighter-50 !important;
+}
+
+// bg black
+.bg-black {
+  background-color: $black !important;
+}
+
+.bg-black-opacity-1 {
+  background-color: $opacity-black-1 !important;
+}
+
+.bg-black-opacity-2 {
+  background-color: $opacity-black-2 !important;
+}
+
+.bg-black-opacity-3 {
+  background-color: $opacity-black-3 !important;
+}
+
+.bg-black-opacity-4 {
+  background-color: $opacity-black-4 !important;
+}
+
+.bg-black-opacity-5 {
+  background-color: $opacity-black-5 !important;
+}
+
+.bg-black-opacity-6 {
+  background-color: $opacity-black-6 !important;
+}
+
+.bg-black-opacity-7 {
+  background-color: $opacity-black-7 !important;
+}
+
+.bg-black-opacity-8 {
+  background-color: $opacity-black-8 !important;
+}
+
+.bg-black-opacity-9 {
+  background-color: $opacity-black-9 !important;
+}
+
+.bg-black-lighter-5 {
+  background-color: $black-lighter-5 !important;
+}
+
+.bg-black-lighter-10 {
+  background-color: $black-lighter-10 !important;
+}
+
+.bg-black-lighter-15 {
+  background-color: $black-lighter-15 !important;
+}
+
+.bg-black-lighter-20 {
+  background-color: $black-lighter-20 !important;
+}
+
+.bg-black-lighter-25 {
+  background-color: $black-lighter-25 !important;
+}
+
+.bg-black-lighter-30 {
+  background-color: $black-lighter-30 !important;
+}
+
+.bg-black-lighter-35 {
+  background-color: $black-lighter-35 !important;
+}
+
+.bg-black-lighter-40 {
+  background-color: $black-lighter-40 !important;
+}
+
+.bg-black-lighter-45 {
+  background-color: $black-lighter-45 !important;
+}
+
+.bg-black-lighter-50 {
+  background-color: $black-lighter-50 !important;
+}
