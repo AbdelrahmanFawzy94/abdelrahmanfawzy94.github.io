@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "flaticon_ndmo";
+    src: url("./flaticon_ndmo.ttf?f14000f3ae9615b3eb570d7a766183d2") format("truetype"),
+url("./flaticon_ndmo.woff?f14000f3ae9615b3eb570d7a766183d2") format("woff"),
+url("./flaticon_ndmo.woff2?f14000f3ae9615b3eb570d7a766183d2") format("woff2"),
+url("./flaticon_ndmo.eot?f14000f3ae9615b3eb570d7a766183d2#iefix") format("embedded-opentype"),
+url("./flaticon_ndmo.svg?f14000f3ae9615b3eb570d7a766183d2#flaticon_ndmo") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_ndmo !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-file:before {
+    content: "\f101";
+}
+.flaticon-file-1:before {
+    content: "\f102";
+}
+.flaticon-file-2:before {
+    content: "\f103";
+}
+.flaticon-file-3:before {
+    content: "\f104";
+}
+.flaticon-file-4:before {
+    content: "\f105";
+}
+.flaticon-file-5:before {
+    content: "\f106";
+}
+.flaticon-file-6:before {
+    content: "\f107";
+}
+.flaticon-file-7:before {
+    content: "\f108";
+}
+.flaticon-file-8:before {
+    content: "\f109";
+}
+.flaticon-file-9:before {
+    content: "\f10a";
+}
+.flaticon-file-10:before {
+    content: "\f10b";
+}
+.flaticon-file-11:before {
+    content: "\f10c";
+}
+.flaticon-file-12:before {
+    content: "\f10d";
+}
+.flaticon-file-13:before {
+    content: "\f10e";
+}
+.flaticon-file-14:before {
+    content: "\f10f";
+}
+.flaticon-file-15:before {
+    content: "\f110";
+}
+.flaticon-file-16:before {
+    content: "\f111";
+}
+.flaticon-file-17:before {
+    content: "\f112";
+}
+.flaticon-file-18:before {
+    content: "\f113";
+}
+.flaticon-file-19:before {
+    content: "\f114";
+}
+.flaticon-file-20:before {
+    content: "\f115";
+}
+.flaticon-file-21:before {
+    content: "\f116";
+}
+.flaticon-file-22:before {
+    content: "\f117";
+}
+.flaticon-file-23:before {
+    content: "\f118";
+}
+.flaticon-file-24:before {
+    content: "\f119";
+}
+.flaticon-file-25:before {
+    content: "\f11a";
+}
+.flaticon-file-26:before {
+    content: "\f11b";
+}
+.flaticon-file-27:before {
+    content: "\f11c";
+}
+.flaticon-file-28:before {
+    content: "\f11d";
+}
+.flaticon-file-29:before {
+    content: "\f11e";
+}
+.flaticon-file-30:before {
+    content: "\f11f";
+}
+.flaticon-file-31:before {
+    content: "\f120";
+}
+.flaticon-file-32:before {
+    content: "\f121";
+}
+.flaticon-file-33:before {
+    content: "\f122";
+}
+.flaticon-file-34:before {
+    content: "\f123";
+}
+.flaticon-file-35:before {
+    content: "\f124";
+}
+.flaticon-file-36:before {
+    content: "\f125";
+}
+.flaticon-file-37:before {
+    content: "\f126";
+}
+.flaticon-file-38:before {
+    content: "\f127";
+}
+.flaticon-file-39:before {
+    content: "\f128";
+}
+.flaticon-file-40:before {
+    content: "\f129";
+}
+.flaticon-file-41:before {
+    content: "\f12a";
+}
+.flaticon-file-42:before {
+    content: "\f12b";
+}
+.flaticon-file-43:before {
+    content: "\f12c";
+}
+.flaticon-file-44:before {
+    content: "\f12d";
+}
+.flaticon-file-45:before {
+    content: "\f12e";
+}

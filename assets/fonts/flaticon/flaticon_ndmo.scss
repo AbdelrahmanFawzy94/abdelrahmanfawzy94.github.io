@@ -1,0 +1,209 @@
+$flaticon_ndmo-font: "flaticon_ndmo";
+
+@font-face {
+    font-family: $flaticon_ndmo-font;
+    src: url("./flaticon_ndmo.ttf?f14000f3ae9615b3eb570d7a766183d2") format("truetype"),
+url("./flaticon_ndmo.woff?f14000f3ae9615b3eb570d7a766183d2") format("woff"),
+url("./flaticon_ndmo.woff2?f14000f3ae9615b3eb570d7a766183d2") format("woff2"),
+url("./flaticon_ndmo.eot?f14000f3ae9615b3eb570d7a766183d2#iefix") format("embedded-opentype"),
+url("./flaticon_ndmo.svg?f14000f3ae9615b3eb570d7a766183d2#flaticon_ndmo") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_ndmo !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_ndmo-map: (
+    "file": "\f101",
+    "file-1": "\f102",
+    "file-2": "\f103",
+    "file-3": "\f104",
+    "file-4": "\f105",
+    "file-5": "\f106",
+    "file-6": "\f107",
+    "file-7": "\f108",
+    "file-8": "\f109",
+    "file-9": "\f10a",
+    "file-10": "\f10b",
+    "file-11": "\f10c",
+    "file-12": "\f10d",
+    "file-13": "\f10e",
+    "file-14": "\f10f",
+    "file-15": "\f110",
+    "file-16": "\f111",
+    "file-17": "\f112",
+    "file-18": "\f113",
+    "file-19": "\f114",
+    "file-20": "\f115",
+    "file-21": "\f116",
+    "file-22": "\f117",
+    "file-23": "\f118",
+    "file-24": "\f119",
+    "file-25": "\f11a",
+    "file-26": "\f11b",
+    "file-27": "\f11c",
+    "file-28": "\f11d",
+    "file-29": "\f11e",
+    "file-30": "\f11f",
+    "file-31": "\f120",
+    "file-32": "\f121",
+    "file-33": "\f122",
+    "file-34": "\f123",
+    "file-35": "\f124",
+    "file-36": "\f125",
+    "file-37": "\f126",
+    "file-38": "\f127",
+    "file-39": "\f128",
+    "file-40": "\f129",
+    "file-41": "\f12a",
+    "file-42": "\f12b",
+    "file-43": "\f12c",
+    "file-44": "\f12d",
+    "file-45": "\f12e",
+);
+
+.flaticon-file:before {
+    content: map-get($flaticon_ndmo-map, "file");
+}
+.flaticon-file-1:before {
+    content: map-get($flaticon_ndmo-map, "file-1");
+}
+.flaticon-file-2:before {
+    content: map-get($flaticon_ndmo-map, "file-2");
+}
+.flaticon-file-3:before {
+    content: map-get($flaticon_ndmo-map, "file-3");
+}
+.flaticon-file-4:before {
+    content: map-get($flaticon_ndmo-map, "file-4");
+}
+.flaticon-file-5:before {
+    content: map-get($flaticon_ndmo-map, "file-5");
+}
+.flaticon-file-6:before {
+    content: map-get($flaticon_ndmo-map, "file-6");
+}
+.flaticon-file-7:before {
+    content: map-get($flaticon_ndmo-map, "file-7");
+}
+.flaticon-file-8:before {
+    content: map-get($flaticon_ndmo-map, "file-8");
+}
+.flaticon-file-9:before {
+    content: map-get($flaticon_ndmo-map, "file-9");
+}
+.flaticon-file-10:before {
+    content: map-get($flaticon_ndmo-map, "file-10");
+}
+.flaticon-file-11:before {
+    content: map-get($flaticon_ndmo-map, "file-11");
+}
+.flaticon-file-12:before {
+    content: map-get($flaticon_ndmo-map, "file-12");
+}
+.flaticon-file-13:before {
+    content: map-get($flaticon_ndmo-map, "file-13");
+}
+.flaticon-file-14:before {
+    content: map-get($flaticon_ndmo-map, "file-14");
+}
+.flaticon-file-15:before {
+    content: map-get($flaticon_ndmo-map, "file-15");
+}
+.flaticon-file-16:before {
+    content: map-get($flaticon_ndmo-map, "file-16");
+}
+.flaticon-file-17:before {
+    content: map-get($flaticon_ndmo-map, "file-17");
+}
+.flaticon-file-18:before {
+    content: map-get($flaticon_ndmo-map, "file-18");
+}
+.flaticon-file-19:before {
+    content: map-get($flaticon_ndmo-map, "file-19");
+}
+.flaticon-file-20:before {
+    content: map-get($flaticon_ndmo-map, "file-20");
+}
+.flaticon-file-21:before {
+    content: map-get($flaticon_ndmo-map, "file-21");
+}
+.flaticon-file-22:before {
+    content: map-get($flaticon_ndmo-map, "file-22");
+}
+.flaticon-file-23:before {
+    content: map-get($flaticon_ndmo-map, "file-23");
+}
+.flaticon-file-24:before {
+    content: map-get($flaticon_ndmo-map, "file-24");
+}
+.flaticon-file-25:before {
+    content: map-get($flaticon_ndmo-map, "file-25");
+}
+.flaticon-file-26:before {
+    content: map-get($flaticon_ndmo-map, "file-26");
+}
+.flaticon-file-27:before {
+    content: map-get($flaticon_ndmo-map, "file-27");
+}
+.flaticon-file-28:before {
+    content: map-get($flaticon_ndmo-map, "file-28");
+}
+.flaticon-file-29:before {
+    content: map-get($flaticon_ndmo-map, "file-29");
+}
+.flaticon-file-30:before {
+    content: map-get($flaticon_ndmo-map, "file-30");
+}
+.flaticon-file-31:before {
+    content: map-get($flaticon_ndmo-map, "file-31");
+}
+.flaticon-file-32:before {
+    content: map-get($flaticon_ndmo-map, "file-32");
+}
+.flaticon-file-33:before {
+    content: map-get($flaticon_ndmo-map, "file-33");
+}
+.flaticon-file-34:before {
+    content: map-get($flaticon_ndmo-map, "file-34");
+}
+.flaticon-file-35:before {
+    content: map-get($flaticon_ndmo-map, "file-35");
+}
+.flaticon-file-36:before {
+    content: map-get($flaticon_ndmo-map, "file-36");
+}
+.flaticon-file-37:before {
+    content: map-get($flaticon_ndmo-map, "file-37");
+}
+.flaticon-file-38:before {
+    content: map-get($flaticon_ndmo-map, "file-38");
+}
+.flaticon-file-39:before {
+    content: map-get($flaticon_ndmo-map, "file-39");
+}
+.flaticon-file-40:before {
+    content: map-get($flaticon_ndmo-map, "file-40");
+}
+.flaticon-file-41:before {
+    content: map-get($flaticon_ndmo-map, "file-41");
+}
+.flaticon-file-42:before {
+    content: map-get($flaticon_ndmo-map, "file-42");
+}
+.flaticon-file-43:before {
+    content: map-get($flaticon_ndmo-map, "file-43");
+}
+.flaticon-file-44:before {
+    content: map-get($flaticon_ndmo-map, "file-44");
+}
+.flaticon-file-45:before {
+    content: map-get($flaticon_ndmo-map, "file-45");
+}

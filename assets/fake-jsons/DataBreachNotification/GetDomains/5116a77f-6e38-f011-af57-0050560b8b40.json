@@ -1,0 +1,23 @@
+[
+  {
+    "domainNameAr": "تفاصيل الطلب",
+    "domainNameEn": "Request Details",
+    "domainId": "667690000",
+    "isVisible": true,
+    "isEditable": false
+  },
+  {
+    "domainNameAr": "الخطة التصحيحية",
+    "domainNameEn": "Corrective action plan",
+    "domainId": "667690006",
+    "isVisible": true,
+    "isEditable": true
+  },
+  {
+    "domainNameAr": "المرئيات",
+    "domainNameEn": "Insights",
+    "domainId": "667690005",
+    "isVisible": true,
+    "isEditable": false
+  }
+]

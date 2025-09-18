@@ -1,0 +1,17 @@
+[
+  {
+    "createdOn": "25-2-2025",
+    "comment": "First Comment ",
+    "isExternal": true
+  },
+  {
+    "createdOn": "25-2-2025",
+    "comment": "Second Comment ",
+    "isExternal": true
+  },
+  {
+    "createdOn": "25-2-2025",
+    "comment": "Third Comment ",
+    "isExternal": true
+  }
+]
